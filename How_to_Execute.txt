@@ -1,0 +1,34 @@
+1. Script "D13_pyspark_asg_daniel" merupakan script Python yang mengolah empat datasets, yaitu:
+	(1). File course.csv.
+	(2). File course_attendance.csv.
+	(3). File enrollment.csv.
+	(4). File schedule.csv.
+
+   Menghasilkan tiga data analisa statistik, berupa:
+	(1). Data statistik "Total Student Attendance for Each Course per Semester" yang menjelaskan berapa banyak jumlah
+	     pelajar yang hadir untuk setiap kursusnya pada semester satu dan semester dua mulai dari:
+		- Mata pelajaran "Applied Data Science".
+		- Mata pelajaran "Data Mining".
+		- Mata pelajaran "Introduction to Applied Machine Learning".
+		- Mata pelajaran "Statistic".
+		- Mata pelajaran "Natural Language Processing".
+		- Mata pelajaran "Python Programming".
+
+	     Dari hasil grafik "Total Student Attendance for Each Course per Semester" maka dapat disimpuilkan bahwa jumlah
+	     pelajar yang hadir cukup bervariasi dengan jumlah maksimum (max) yang hadir, yaitu sebanyak 78 pelajar untuk
+	     mata pelajaran "Introduction to Applied Machine Learning". 
+
+	(2). Data statistik "Distribution of Total Student Attendance per Semester" yang menjelaskan distribusi standar deviasi
+	     terhadap jumlah kehadiran semua pelajar untuk semua mata pelajaran per semesternya, yaitu semester 1 dan semester 2.
+
+	(3). Data statistik "Lecturer Total Teaching Activities per Semester" yang menjelaskan jumlah aktivitas pengajaran yang
+	     dilakukan oleh pengajar sehingga menunjukkan siapa pengajar yang paling aktif mengajar untuk per semesternya, yaitu
+	     semester 1 dan semester 2.
+
+2. Bagaimana cara menjalankannya?
+	(1). Install pip dahulu (sebenarnya ini tidak perlu karena sudah dieksekusi secara otomatis via Jupyter Notebook):
+		- pip install pyspark
+		- pip install -U kaleido
+		- pip install pyarrow
+
+	(2). Kamu tinggal mengeklik tombol 'Run' saja dan program akan berjalan dengan sendirinya!
